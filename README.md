@@ -19,9 +19,7 @@ Berikut adalah rancangan infrastruktur serverless yang kami gunakan:
 
 ![Diagram Arsitektur](docs/diagram-arsitektur-gcp.png)
 
-*(Catatan: Pastikan nanti file dari Ciko dinamai `diagram-arsitektur-gcp.png` dan ditaruh di folder docs)*
 
----
 
 ## 💰 Estimasi Biaya Bulanan (GCP)
 Berdasarkan perhitungan GCP Calculator:
