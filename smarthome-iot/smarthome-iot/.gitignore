@@ -1,0 +1,43 @@
+# ─── Terraform State & Credentials (JANGAN PERNAH COMMIT) ───────────────────
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars          # Mengandung project_id & konfigurasi spesifik tim
+*.tfplan
+*.tfplan.json
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# ─── Google Cloud Credentials ────────────────────────────────────────────────
+*.json                    # Service account key files
+service-account-*.json
+gcloud-credentials.json
+
+# ─── Secret & Sensitive Files ────────────────────────────────────────────────
+*.pem
+*.key
+*.crt
+*.p12
+.env
+.env.*
+secrets/
+**/secrets/
+
+# ─── IDE & OS Files ──────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ─── Logs & Temp ─────────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.cache
