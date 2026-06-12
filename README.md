@@ -24,7 +24,7 @@ Proyek ini mengadopsi standar industri **Modular Infrastructure as Code (IaC)** 
 | :--- | :--- | :--- |
 | 📄 **[README.md](README.md)** | Markdown | Panduan utama repositori, distribusi peran tim, dan ringkasan progres. |
 | 📁 **docs/** | Folder | Direktori penyimpanan seluruh aset dokumentasi perencanaan sistem. |
-| ├── 🗺️ **[diagram-arsitektur-gcp.png](docs/diagram-arsitektur-gcp.png)** | Image/PNG | Blueprint topologi dan alur data stream IoT real-time pada Google Cloud. |
+| ├── 🗺️ **[diagram-arsitektur-gcp.JPEG](docs/diagram-arsitektur-gcp.JPEG)** | Image/JPEG | Blueprint topologi dan alur data stream IoT real-time pada Google Cloud. |
 | ├── 📕 **[dokumen-perencanaan-cc.pdf](docs/dokumen-perencanaan-cc.pdf)** | PDF Document | Landasan teori, analisis kebutuhan sistem, dan draf final UPR. |
 | └── 📊 **[estimasi-biaya-gcp.csv](docs/estimasi-biaya-gcp.csv)** | CSV Spreadsheet | Hasil riil kalkulasi pengeluaran bulanan via GCP Billing Calculator. |
 | 📁 **terraform/** | Folder | Direktori utama tempat orkestrasi kode *Infrastructure as Code* (IaC). |
@@ -68,6 +68,7 @@ Dalam tahapan eksekusi otomatisasi infrastruktur menggunakan Terraform, tim meng
 Sebagai bentuk pemenuhan pilar *Cost-Awareness*, kalkulasi biaya operasional dihitung secara akurat menggunakan **GCP Pricing Calculator** untuk penempatan infrastruktur pada **Region Jakarta (`asia-southeast2`)**. Total biaya operasional sistem ini adalah **$13.46 / Bulan** (± Rp 210.000,-).
 
 ### 📊 Distribusi Pengeluaran Bulanan
+
 [Cloud SQL MySQL] ████████████████████████████████████████ $13.03 (96.8%)
 
 [Cloud Storage & Run] █ $0.42 (3.1%)
